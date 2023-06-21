@@ -67,7 +67,7 @@ function App3() {
     if (!numbers.includes(lastCharacter)) {
       exp = exp.slice(0, -1);
     }
-    const ans = (0, eval)(exp).toFixed(2) + "";
+    const ans = exp;
     setResult(ans);
   }
 
