@@ -1,0 +1,41 @@
+nav {
+    max-width: 1024px;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.about {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.link {
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3rem;
+    background: #eee;
+    box-shadow: 0 8px 8px -4px lightblue;
+}
+
+.container {
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    gap: 1rem;
+}
